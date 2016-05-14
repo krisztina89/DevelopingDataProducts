@@ -60,5 +60,4 @@ Obese Class I: 30 - 35
 Obese Class II: 35 - 40
 
 Obese Class III: > 40
-
---- .class #id 
+--- .class #id
