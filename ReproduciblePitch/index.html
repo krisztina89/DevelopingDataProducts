@@ -88,9 +88,10 @@
     <h2>Summary</h2>
   </hgroup>
   <article data-timings="">
-    <p>The following formula calcukates the user&#39;s BMI using the entered weight and height measures:</p>
+    <p>The following formula calculates the user&#39;s BMI using the entered weight and height measures:</p>
 
-<p>BMI = weight(kg)/height2(m2)</p>
+<pre><code class="r">bmi &lt;- function(weight,height) { weight/((height/100)^2)}
+</code></pre>
 
 <p>The following is the World Health Organization&#39;s (WHO) recommended body weight based on BMI values for adults. It is used for both men and women, age 18 or older.</p>
 

@@ -38,10 +38,11 @@ Your Body Mass Index is a measurement of your body weight based on your height a
 
 ## Summary
 
-The following formula calcukates the user's BMI using the entered weight and height measures:
+The following formula calculates the user's BMI using the entered weight and height measures:
 
-BMI = weight(kg)/height2(m2)
-
+```{r}
+bmi <- function(weight,height) { weight/((height/100)^2)}
+```
 
 The following is the World Health Organization's (WHO) recommended body weight based on BMI values for adults. It is used for both men and women, age 18 or older.
 
